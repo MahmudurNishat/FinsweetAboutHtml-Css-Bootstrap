@@ -1,0 +1,492 @@
+/* ====================================================
+                 Google font  link start here
+======================================================= */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+/* ====================================================
+                 Google font  link end here
+======================================================= */
+
+/* ====================================================
+                 common css start here
+======================================================= */
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+div,
+span,
+a,
+li {
+  margin: 0;
+  padding: 0;
+}
+img {
+  vertical-align: middle;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+:root {
+  --primary_textColor: #282938;
+  --white: #fff;
+  --secondary_textColor: #1d2130;
+  --nav__textColor: #bbbbcb;
+  --circle__bgColor: #2405f2;
+  --primary__bgColor: #1c1e53;
+  --secondary__bgColor: #f4f6fc;
+}
+
+/* ====================================================
+                 Nav_part  css start here
+======================================================= */
+nav {
+  background: var(--primary__bgColor);
+}
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+  color: var(--white);
+}
+
+.nav-link {
+  color: var(--nav__textColor);
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 32px;
+  transition: all linear 0.3s;
+  -webkit-transition: all linear 0.3s;
+  -moz-transition: all linear 0.3s;
+  -ms-transition: all linear 0.3s;
+  -o-transition: all linear 0.3s;
+}
+.nav-link:hover {
+  color: var(--white);
+}
+.contact {
+  border: 2px solid rgba(244, 246, 252, 0.2) !important;
+  color: var(--white);
+  transition: all linear 0.3s;
+  -webkit-transition: all linear 0.3s;
+  -moz-transition: all linear 0.3s;
+  -ms-transition: all linear 0.3s;
+  -o-transition: all linear 0.3s;
+}
+.contact:hover {
+  color: var(--primary_textColor) !important;
+  background: var(--white) !important;
+  border: 2px solid rgba(244, 246, 252, 0.2) !important;
+}
+/* ====================================================
+                 Nav_part  css end here
+======================================================= */
+
+/* ====================================================
+                 AboutUs_part  css start here
+======================================================= */
+#aboutUs {
+  padding: 103px 0 100px;
+  background: var(--white);
+}
+.left__subtitle {
+  color: var(--primary_textColor, #282938);
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.left__title {
+  color: var(--primary_textColor, #282938);
+  font-size: 54px;
+  font-weight: 600;
+  max-width: 595px;
+}
+.left__summary {
+  color: var(--primary_textColor, #282938);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  opacity: 0.7;
+  text-align: justify;
+}
+/* ====================================================
+                 AboutUs_part  css end here
+======================================================= */
+/* ====================================================
+                 goal_part  css start here
+======================================================= */
+#goal {
+  padding: 40px 0 55px;
+  background: var(--white);
+}
+.goalWrapper {
+  background: #f4f5f5;
+}
+.goalLeft__subtitle {
+  color: var(--primary_textColor, #282938);
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.goalLeft__title {
+  color: var(--primary_textColor, #282938);
+  font-size: 34px;
+  font-weight: 600;
+}
+
+.goalLeft__summary {
+  color: var(--primary_textColor, #282938);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+  opacity: 0.7;
+}
+.banner__img {
+  padding-top: 80px;
+}
+
+/* ====================================================
+                 goal_part  css end here
+======================================================= */
+/* ====================================================
+                 process_part  css start here
+======================================================= */
+#process {
+  padding: 50px 0 80px;
+  background: var(--white);
+}
+.process__title {
+  color: var(--primary_textColor, #282938);
+  font-size: 44px;
+  font-weight: 600;
+}
+.boxWrapper {
+  padding-top: 60px;
+}
+.circle {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  background-color: var(--circle__bgColor);
+}
+.circle::after {
+  position: absolute;
+  content: "";
+  top: 50%;
+  left: 33px;
+  width: 180px;
+  border: 1px dashed #2405f2;
+  opacity: 0.4;
+  transform: translateY(-50%);
+}
+/* ====================================================
+                 process_part  css end here
+======================================================= */
+/* ====================================================
+                 Mission_part  css start here
+======================================================= */
+#missionPart {
+  padding: 50px 0 80px;
+  background: #eef4fa;
+}
+.missionPartLeft__subtitle {
+  color: var(--primary_textColor, #282938);
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.missionPartLeft__title {
+  color: var(--primary_textColor, #282938);
+  font-size: 38px;
+  font-weight: 600;
+}
+
+.missionPartLeft__summary {
+  color: var(--primary_textColor, #282938);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.secondRow {
+  margin-top: 96px;
+}
+
+/* ====================================================
+                 Mission_part  css end here
+======================================================= */
+/* ====================================================
+                 Benefit_part  css start here
+======================================================= */
+#benefit {
+  padding: 80px 0 80px;
+  background-color: var(--white);
+}
+.benefitItem {
+  background: #f4f6fc;
+  padding: 40px 30px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.benefit__title {
+  color: var(--primary_textColor, #282938);
+  font-size: 47px;
+  font-weight: 600;
+  margin-bottom: 60px;
+}
+.Item__title {
+  color: var(--primary_textColor, #282938);
+  font-size: 24px;
+  font-weight: 500;
+}
+.Item__summary {
+  color: var(--primary_textColor, #282938);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 28px;
+}
+.counter__number {
+  color: var(--primary_textColor, #282938);
+  font-size: 34px;
+  font-weight: 600;
+}
+
+.counter__title {
+  color: var(--primary_textColor, #282938);
+  font-size: 15px;
+  font-weight: 400;
+}
+/* ====================================================
+                 Benefit_part  css end here
+======================================================= */
+/* ====================================================
+                 meet_part  css start here
+======================================================= */
+#meet {
+  padding: 50px 0 80px;
+  background: var(--secondary__bgColor);
+}
+.meet__title {
+  color: var(--primary_textColor, #282938);
+  font-size: 47px;
+  font-weight: 600;
+  margin-bottom: 80px;
+}
+.meetProfile {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-left: 10%;
+}
+
+.team_one {
+  width: 100%;
+  object-fit: cover;
+}
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 100%;
+  left: 0;
+  background: linear-gradient(
+    348deg,
+    #5239fa 17.97%,
+    rgba(255, 255, 255, 0) 79.2%
+  );
+
+  opacity: 0.4;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  transition: all linear 0.3s;
+  -webkit-transition: all linear 0.3s;
+  -moz-transition: all linear 0.3s;
+  -ms-transition: all linear 0.3s;
+  -o-transition: all linear 0.3s;
+}
+.meetProfile:hover .overlay {
+  top: 0;
+}
+.socialIcon {
+  position: absolute;
+  bottom: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+}
+.icon {
+  margin-left: 10px;
+}
+
+.profile__name {
+  color: #1d2130;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.profile__title {
+  color: #1d2130;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/* ====================================================
+                 meet_part  css end here
+======================================================= */
+/* ====================================================
+                 footer_part  css start here
+======================================================= */
+#footer {
+  padding: 50px 0 0px;
+  background-color: var(--primary__bgColor);
+}
+.footerLeft__summary {
+  color: var(--White, #fff);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  opacity: 0.8;
+}
+.contactBox {
+  padding: 25px 25px;
+  background: #fcd980;
+  column-gap: 30px;
+  margin-top: 90px;
+}
+.email__title {
+  color: var(--primary_textColor, #282938);
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.email__location {
+  color: var(--primary_textColor, #282938);
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 0.8;
+}
+.footerRight__title {
+  font-size: 48px;
+  font-weight: 600;
+}
+.footerRight__summary {
+  color: var(--secondary__bgColor, #f4f6fc);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 27px;
+  opacity: 0.8;
+}
+.footer__icon {
+  width: 40px;
+  height: 40px;
+  background: linear-gradient(#02aabd, #00cdac);
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  border: 1px solid #1bffff;
+  margin-right: 10px;
+}
+.copyright {
+  color: var(--primary_textColor);
+  font-size: 16px;
+  font-weight: 500;
+}
+.Wrapper__list {
+  color: var(--primary_textColor);
+  font-size: 16px;
+  font-weight: 500;
+}
+/* ====================================================
+                 footer_part  css end here
+======================================================= */
+/* ====================================================
+                 _part  css start here
+======================================================= */
+
+/* ====================================================
+                 _part  css end here
+======================================================= */
+
+/* ====================================================
+                 _part  css start here
+======================================================= */
+
+/* ====================================================
+                 _part  css end here
+======================================================= */
+/* ====================================================
+                 _part  css start here
+======================================================= */
+
+/* ====================================================
+                 _part  css end here
+======================================================= */
+/* ====================================================
+                 _part  css start here
+======================================================= */
+
+/* ====================================================
+                 _part  css end here
+======================================================= */
+/* ====================================================
+                 _part  css start here
+======================================================= */
+
+/* ====================================================
+                 _part  css end here
+======================================================= */
+/* ====================================================
+                 _part  css start here
+======================================================= */
+
+/* ====================================================
+                 _part  css end here
+======================================================= */
+/* ====================================================
+                 _part  css start here
+======================================================= */
+
+/* ====================================================
+                 _part  css end here
+======================================================= */
